@@ -1,0 +1,107 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(242, 228, 255); */
+}
+.busImage{
+    padding: 0px 73px;
+}
+.busticket{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-left: 123px;
+}.busticket img{
+    height: 30px;
+}.cabrental{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-left: 80px;
+}.cabrental img{
+    height: 30px;
+}
+.help{
+    display: flex;
+    flex-direction: row;
+    padding-left: 312px;
+}
+.help img{
+    height: 30px;
+}.account{
+    display: flex;
+    flex-direction: row;
+    padding-left: 104px;
+}
+.account img{
+    height: 30px;
+}
+.down1{
+    background-image: url("./assets/HomeBannerImg.svg");
+    background-size: cover;
+    width: 100%;
+    height: 388px;
+}.down1heading{
+    font-size: 39px;
+    padding: 2px 190px;
+}
+.traveloption{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.from{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    font-size: 30px;
+    align-items: center;
+    background-color: #fff;
+    border-top-left-radius: 54px;
+    border-bottom-left-radius: 54px ; 
+    border-color:#7d7d7da1;
+
+}
+.frompara{
+    padding-right: 28px;
+}
+.fromimg img{
+    padding-left: 73px;
+    height: 42px;
+}
+.to{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    font-size: 30px;
+    align-items: center;
+    background-color: #fff;
+}
+.topara{
+    padding-right: 128px;
+}
+.toimg img{
+    padding-left: 73px;
+    height: 42px;
+}.date{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    align-items: center;
+    background-color: #fff;
+}
+.dateimg img{
+    height: 42px;
+    padding-right: 3px;
+}.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(189, 67, 67);
+    padding-left: 75px;
+    padding-right: 116px;
+    border-top-right-radius: 54px;
+    border-bottom-right-radius: 54px;
+    font-size: 30px;
+}
+
