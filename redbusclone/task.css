@@ -103,5 +103,219 @@
     border-top-right-radius: 54px;
     border-bottom-right-radius: 54px;
     font-size: 30px;
+}.trendingoffers{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3px;
+    padding-left: 23px;
+    padding-top: 23px;
+    width: 1092px;
+    gap: 0px;
+}.trendingoffers h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #bd89ea;
+    padding-bottom: 34px;
 }
-
+.cardsgroup{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    min-width: 1090px;
+    gap: 12px;
+    background-color: #fff;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px;
+    width: 528;
+    height: 196;
+    background-color: rgb(95, 95, 255);
+    color: #fff;
+    padding-right: 34px;
+}
+.card1left img{
+    padding-left:12px ;
+    padding-top: 34px;
+}
+.card1right{
+    padding-left: 23px;
+}.busbtn{
+    border-radius: 9px;
+    border: 0px;
+    padding: 7px;
+    color: #fff;
+    background-color: rgb(118, 133, 183);
+}.first{
+    border-radius: 4px;
+    padding: 3px;
+    background-color: rgb(118, 133, 183);
+}.card1right img{
+    padding-left: 25px;
+    color: #fff;
+    padding-top: 1px;
+    background-color: rgb(95, 95, 255);
+}.card2{
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px;
+    width: 330px;
+    background-color: rgb(79, 198, 115);
+    color: #fff;
+}
+.card2left img{
+    padding-left:12px ;
+    padding-top: 34px;
+}
+.card2right{
+    padding-left: 23px;
+}.busbtn2{
+    border-radius: 9px;
+    border: 0px;
+    padding: 7px;
+    color: #fff;
+    background-color: rgb(151, 255, 194);
+}.superhit{
+    border-radius: 4px;
+    padding: 3px;
+    background-color: rgb(151, 255, 194);
+}.card2right img{
+    padding-left: 25px;
+    color: #fff;
+    padding-top: 1px;
+    background-color: rgb(79, 198, 115);
+}.card3{
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px;
+    width: 330px;
+    background-color: rgb(244, 71, 61);
+    color: #fff;
+}
+.card3left img{
+    padding-left:12px ;
+    padding-top: 34px;
+}
+.card3right{
+    padding-left: 23px;
+}.busbtn3{
+    border-radius: 9px;
+    border: 0px;
+    padding: 7px;
+    color: #fff;
+    background-color: rgb(255, 168, 156);
+}.BUS200{
+    border-radius: 4px;
+    padding: 3px;
+    background-color: rgb(255, 168, 156);
+}.card3right img{
+    padding-left: 25px;
+    color: #fff;
+    padding-top: 1px;
+    background-color:  rgb(244, 71, 61);
+}.card4{
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px;
+    width: 330px;
+    background-color: rgb(255, 42, 220);
+    color: #fff;
+}
+.card4left img{
+    padding-left:12px ;
+    padding-top: 34px;
+}
+.card4right{
+    padding-left: 23px;
+}.busbtn4{
+    border-radius: 9px;
+    border: 0px;
+    padding: 7px;
+    color: #fff;
+    background-color: rgb(255, 172, 254);
+}.BUS200{
+    border-radius: 4px;
+    padding: 3px;
+    background-color:rgb(255, 172, 254);
+}.card4right img{
+    padding-left: 25px;
+    color: #fff;
+    padding-top: 1px;
+    background-color:   rgb(255, 42, 220);
+}
+.down2{
+    padding-top: 207px;
+    display: flex;
+    flex-direction: row;
+}.left{
+    display: flex;
+    flex-direction: column;
+}
+.down2 .left h1{
+    font-size: 49px;
+    padding: 49px;
+}
+.bustrainticket{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    border-color: gray;
+    width: fit-content;
+}
+.down2busbtn{
+    display: flex;
+    border: 0px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    font-size: 20px;
+    color: red;
+    border-bottom:2px solid red;
+}.down2bus img{
+    padding: 2px 12px;
+}.down2train{
+    padding: 2px 12px;
+}
+.down2trainbtn{
+    display: flex;
+    border: 2px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    border-color: rgb(190, 189, 189);
+    border-left-style: dashed;
+}.down2busbtn:hover , .down2trainbtn:hover{
+    background-color: gray;
+}
+.outstation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.outstation img{
+    padding-right: 73px;
+}.buscab{
+    padding-top: 48px;
+}
+.busrentabtn{
+    padding: 5px 23px;
+    display: flex;
+    border: 0px;
+    flex-direction: row;
+    width: 260px;
+    align-items: center;
+    color: #fff;
+    background-color: red;
+    border-radius: 13px;
+}.busrentabtn img{
+    padding-left: 19px;
+}
+.down2 .right{
+    width: 578px;
+    background-image: url("./assets/aboutUsImg.svg");
+}
+.down2 .right img{
+    padding-top: 313px;
+    height: 50%;
+}
