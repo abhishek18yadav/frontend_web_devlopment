@@ -246,7 +246,7 @@
     background-color:   rgb(255, 42, 220);
 }
 .down2{
-    padding-top: 207px;
+    padding-top: 337px;
     display: flex;
     flex-direction: row;
 }.left{
@@ -318,4 +318,142 @@
 .down2 .right img{
     padding-top: 313px;
     height: 50%;
+}.down3{
+    padding-top: 160px;
+    padding-left: 44px;
+}
+.enjoy{
+    background-image: url("./assets/appInstallbg.svg");
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    height: 420px;
+    padding-left: 51px;
+}.enjoycontainer{
+    display: flex;
+    flex-direction: row;
+}
+.enjoyleft{
+    display:flex;
+    flex-direction: column;
+    padding-left: 34px;
+    padding-top: 34px;
+    height: 222px;
+    width: 296px;
+    background-color: #fff;
+    border-radius: 24px;
+}.quickaccess{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.enjoyleft .downloads{
+    display:flex;
+    flex-direction: row;
+}
+.downloadsleft img{
+    height: 15px;
+    width: 17px;
+}#downloadsleftright p{
+    border-left: 2px solid gray;
+    padding-left: 23px;
+}
+.star4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.enjoyright{
+    display:flex;
+    flex-direction: column;
+    padding-left: 34px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 19px;
+}.enjoyright .link{
+    display: flex;
+    flex-direction: row;
+}.whatsapp{
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: gray;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 4px 15px;
+}.getlink{
+    background-color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #fff;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 4px 15px;
+}
+.downloadmedium{
+    display: flex;
+    flex-direction: row;
+}.downloadmediumright{
+    display: flex;
+    flex-direction: column;
+    padding-left: 23px;
+    gap: 6px;
+}
+.primo{
+    padding-top: 100px;
+}.topprimo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.downprimo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 211px;
+    padding-top: 31px;
+}.down1primo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.down2primo{
+    padding-left: 153px;
+}
+.primocard1{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    width: 330px;
+    background-image: linear-gradient(to right , rgb(23, 79, 185), rgb(116, 37, 155));
+    border-radius: 23px;
+}.primocard1left img{
+    padding: 23px 34px;
+}.primocard1right{
+    color: #fff;
+}.primocard2{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    width: 330px;
+    background-image: linear-gradient(to right , rgb(23, 79, 185), rgb(116, 37, 155));
+    border-radius: 23px;
+}.primocard2left img{
+    padding: 23px 34px;
+}.primocard2right{
+    color: #fff;
+}.primocard3{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    width: 330px;
+    background-image: linear-gradient(to right , rgb(23, 79, 185), rgb(116, 37, 155));
+    border-radius: 23px;
+}.primocard3left img{
+    padding: 23px 34px;
+}.primocard3right{
+    color: #fff;
 }
