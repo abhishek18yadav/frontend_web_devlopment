@@ -1,0 +1,5 @@
+ques - what are loops and why do we need them?
+
+ans - Loops are a programming element that repeat a portion of code a set number of times until the desired process is complete.
+
+A "For" Loop is used to repeat a specific block of code a known number of times. For example, if we want to check the grade of every student in the class, we loop from 1 to that number.
